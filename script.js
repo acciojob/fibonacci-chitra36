@@ -1,5 +1,5 @@
 function fibonacci(num) {
-// your code here
+
 	if(num <= 2){
 		return num-1;
 	}
@@ -15,6 +15,9 @@ function fibonacci(num) {
 	
 	}
 	return next;
+}
+
+module.exports = fibonacci;
 	
 	 [a, b] = [0, 1];
   while (true) {
